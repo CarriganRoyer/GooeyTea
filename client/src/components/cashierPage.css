@@ -1,0 +1,293 @@
+/* cashierPage.css */
+.order-container {
+  min-height: 100vh;
+  background-color: #f9fafb;
+  padding: 1rem;
+}
+
+.order-wrapper {
+  max-width: 90rem;
+  margin: 0 auto;
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #e5e7eb;
+  background-color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.order-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin: 0;
+}
+
+.order-date-info {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1.5rem;
+  color: #6b7280;
+}
+
+.customer-weather-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+  color: #6b7280;
+}
+
+.order-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1.5rem;
+}
+
+/* SELECTION PANEL */
+.order-selection-panel {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+.order-panel-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+}
+
+.order-section {
+  margin-bottom: 1.5rem;
+}
+
+.order-label {
+  display: block;
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 0.75rem;
+}
+
+/* BUTTON FORMATTING */
+.button-grid {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.button-grid-6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.button-grid-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.button-grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.option-button {
+  padding: 1.5rem;
+  border: 2px solid #1f2937;
+  background-color: white;
+  font-weight: 600;
+  transition: background-color 0.2s;
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+
+.option-button:hover {
+  background-color: #f3f4f6;
+}
+
+.option-button.selected {
+  background-color: #86efac;
+}
+
+.option-button.seasonal {
+  border: 2px solid #eeff57;
+  box-shadow: 0 0 8px rgb(244, 255, 148);
+}
+
+.add-button-container {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.add-button {
+  padding: 1rem 3rem;
+  border: 2px solid #1f2937;
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-size: 1.125rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.add-button:hover {
+  background-color: #d1d5db;
+}
+
+.add-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.order-summary-panel {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  height: fit-content;
+  position: sticky;
+  top: 1rem;
+}
+
+.order-summary-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  border-bottom: 2px solid #1f2937;
+  padding-bottom: 0.5rem;
+}
+
+.order-items-container {
+  margin-bottom: 1.5rem;
+  max-height: 24rem;
+  overflow-y: auto;
+}
+
+.order-item {
+  border: 2px solid #d1d5db;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.order-item-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.order-item-list {
+  font-size: 0.875rem;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0.5rem 0;
+}
+
+.order-item-list li {
+  margin-bottom: 0.25rem;
+}
+
+.remove-button {
+  font-size: 0.75rem;
+  color: #dc2626;
+  font-weight: 600;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.remove-button:hover {
+  color: #991b1b;
+}
+
+.empty-order {
+  color: #6b7280;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.complete-button {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid #1f2937;
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-size: 1.125rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.complete-button:hover {
+  background-color: #d1d5db;
+}
+
+.complete-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.customer-rewards-container {
+  border: 2px solid #d1d5db;
+  background: #ffd857;
+  padding: 0.75rem;
+  margin-top: 2rem;
+  position: relative;
+}
+
+.option-button.seasonal {
+  border: 2px solid #eeff57;
+  box-shadow: 0 0 8px rgb(244, 255, 148);
+}
+
+.happy-hour-banner {
+  margin-bottom: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #fef9c3; 
+  border: 1px solid #facc15;
+  color: #854d0e;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.qty-btn {
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: none;
+  background: #1f2937;
+  color: #f9fafb;
+  cursor: pointer;
+}
+
+.qty-btn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.qty-value {
+  min-width: 24px;
+  text-align: center;
+  font-weight: 600;
+}
+
