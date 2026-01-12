@@ -1,0 +1,40 @@
+1.  Persona: Maria
+
+-   Community health worker; first-time tech user; Spanish/English
+    bilingual; uses translations. Needs:
+-   Clear language, accurate translations, icons with text.
+
+Test Case – Language Toggle - Spanish toggle visible on home
+screen. - One-tap toggle, no progress loss.
+
+Test Case – Reading & Interpretation - Avoid jargon. - Spanish
+translations culturally correct.
+
+Test Case – Step-by-step Guidance - Option selection order.
+
+Test Case – Translation Accuracy - All labels and errors translated
+correctly.
+
+------------------------------------------------------------------------
+
+2.  Persona: Vishnu
+
+-   Engineer; low vision (glaucoma); uses magnifiers and high contrast.
+
+Needs: - High contrast mode, large text, scalable layout.
+
+Test Case – High Contrast Toggle - Contrast between text and background.
+
+Test Case C1 – Accidental Tap Prevention - Large buttons
+
+------------------------------------------------------------------------
+
+3.  Persona: Carol
+
+-   Grandmother; macular degeneration; slight tremor; enlarges text.
+
+Needs: - Extra-large text, large buttons, error forgiveness.
+
+Test Case – Touch Target Size - Large Buttons
+
+Test Case – Undo/Back Action - Easy undo for accidental taps. (unselecting)
